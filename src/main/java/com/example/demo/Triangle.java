@@ -7,6 +7,14 @@ public class Triangle {
         this.height = height;
     }
 
+    public Triangle(String type) {
+        this.type = type;
+    }
+
+    public Triangle(int type) {
+        this.height = type;
+    }
+
     public String getType() {
         return type;
     }
